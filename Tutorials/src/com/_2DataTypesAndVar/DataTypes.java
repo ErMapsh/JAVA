@@ -1,23 +1,5 @@
 package com._2DataTypesAndVar;
 
-public class DataTypes {
-    public static void main(String[] args){
-        System.out.println("----Java DataTypes----- ");
-        int digit = 8;
-        float floatValue = 1.3f;
-        char character = 'c';
-        boolean bln = true;
-        long _long = 15000000000L;
-        double double2 = 19.99d;
-        byte binary = 100;
-        short int$ = 5000;
-        int num2 = 4;
-
-        System.out.print("sum fo 3 Digit is ");
-        System.out.println(digit+int$+num2);
-    }
-}
-
 /* There Tow type of date types are there:
 1.Primitive dataTypes
 2.Non-Primitive DataTypes (Derived)
@@ -40,3 +22,21 @@ byte: store binary values between 0(00000000) and 255(1111111).
 4.should not a keyword
 5.can contain alphabet, char, _ char and digit if the other conditions are met.
 */
+public class DataTypes {
+    public static void main(String[] args){
+        System.out.println("----Java DataTypes----- ");
+        int digit = 8;
+        float floatValue = 1.3f;
+        char character = 'c';
+        boolean bln = true;
+        long _long = 15000000000L;
+        double double2 = 19.99d;
+        byte binary = 100;
+        short int$ = 5000;
+        int num2 = 4;
+
+        System.out.print("sum fo 3 Digit is ");
+        System.out.println(digit+int$+num2);
+    }
+}
+
