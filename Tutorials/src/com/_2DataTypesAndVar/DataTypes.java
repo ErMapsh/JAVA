@@ -22,6 +22,7 @@ byte: store binary values between 0(00000000) and 255(1111111).
 4.should not a keyword
 5.can contain alphabet, char, _ char and digit if the other conditions are met.
 */
+
 public class DataTypes {
     public static void main(String[] args){
         System.out.println("----Java DataTypes----- ");
