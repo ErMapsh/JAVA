@@ -1,7 +1,7 @@
 package practice;
 import java.util.Scanner;
 
-public class Percentage {
+public class _1Percentage {
     public static void main(String[] args){
         System.out.println("----Percentage----");
         Scanner sc = new Scanner(System.in);
