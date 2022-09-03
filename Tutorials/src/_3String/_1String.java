@@ -31,5 +31,7 @@ public class _1String {
 
         String str = sc.nextLine();
         System.out.println(str);
+
+
     }
 }

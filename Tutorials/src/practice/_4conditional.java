@@ -73,7 +73,7 @@ public class _4conditional {
 
 
       /* 4.Write a java program to find out the day of the week given
-      the number like 1 for monday*/
+      the number like 1 for monday'
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
@@ -89,6 +89,44 @@ public class _4conditional {
             case 7 -> System.out.println("Sunday");
             default -> System.out.println("Invalid Choice..");
         }
+
+      */
+
+        /* 5.Leap Year or not
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int year = sc.nextInt();
+
+        if ( year % 4 == 0){
+            System.out.printf("Yep %d is leap year", year);
+        }else{
+            System.out.println("Not Leap year..");
+        }
+      */
+
+      /*
+          6. write a program to find out the type of website from the url like com, org, in
+
+      */
+        Scanner sc = new Scanner(System.in);
+        String url = sc.nextLine();
+
+        String[] array = url.split("[.]");
+        System.out.println("type of url is " + array[array.length-1]);
+
+        //another way
+
+
+        if (url.endsWith(".com")){
+            System.out.println("This is Commercial website");
+        } else if (url.endsWith(".live")) {
+            System.out.println("This is Live website");
+        } else if (url.endsWith(".org")) {
+            System.out.println("This is Org website");
+        } else if (url.endsWith(".in")) {
+            System.out.println("This is indian website");
+        }
+
 
     }
 }
