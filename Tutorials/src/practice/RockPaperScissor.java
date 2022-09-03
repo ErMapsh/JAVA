@@ -16,7 +16,7 @@ public class RockPaperScissor {
             System.out.print("1.Rock\n2.Paper\n3.Scissor\nEnter Your Choice: ");
             int HumanChoice = sc.nextInt();
             int CompChoice = r.nextInt(1,4);
-            
+
             if (HumanChoice == CompChoice){
                 System.out.println("Draw..");
                 i--;
