@@ -20,7 +20,7 @@ public class _1Percentage {
         double percentage = ((a+b+c+d+e)/500d) * 100d;
         System.out.print("Percentage: " + percentage);
 
-
+        sc.close();
     }
 }
 

@@ -127,6 +127,6 @@ public class _4conditional {
             System.out.println("This is indian website");
         }
 
-
+        sc.close();
     }
 }

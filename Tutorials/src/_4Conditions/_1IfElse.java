@@ -24,5 +24,6 @@ public class _1IfElse {
             System.out.println("You can't go ahead");
         }
 
+        sc.close();
     }
 }

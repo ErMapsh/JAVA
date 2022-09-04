@@ -51,10 +51,10 @@ public class _2StringFunctions {
         */
 
         /*
-        System.out.print("ErMapsh\n");
+        */
+        System.out.print(name);
         System.out.println("Er\tMapsh");
         System.out.println("\\ErMapsh");
         System.out.println("This is \"ErMapsh");
-        */
     }
 }

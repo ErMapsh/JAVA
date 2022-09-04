@@ -33,6 +33,7 @@ public class RockPaperScissor {
         }else{
             System.out.println("Human Win..");
         }
+        sc.close();
     }
 }
 

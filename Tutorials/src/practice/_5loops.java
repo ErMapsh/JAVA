@@ -103,6 +103,6 @@ public class _5loops {
             i++;
         } while ( i < 2);
 
-
+        sc.close();
     }
 }

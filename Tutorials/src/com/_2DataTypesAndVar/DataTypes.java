@@ -27,12 +27,14 @@ public class DataTypes {
     public static void main(String[] args){
         System.out.println("----Java DataTypes----- ");
         int digit = 8;
+        /*
         float floatValue = 1.3f;
         char character = 'c';
         boolean bln = true;
         long _long = 15000000000L;
         double double2 = 19.99d;
         byte binary = 100;
+        */
         short int$ = 5000;
         int num2 = 4;
 

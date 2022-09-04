@@ -17,5 +17,6 @@ public class _2Else_if {
         }else{
             System.out.println("Not at all");
         }
+        sc.close();
     }
 }

@@ -24,5 +24,7 @@ public class userInput {
         System.out.println(sc.hasNextInt());
 
         System.out.println(sc.nextLine());
+
+        sc.close();
     }
 }

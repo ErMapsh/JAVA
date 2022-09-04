@@ -3,7 +3,7 @@ package com._7DataType;
 public class DataType {
     public static void main(String[] args) {
         System.out.println("----- Data Type of Expressions & Increment/Decrement Operators -----");
-        int a = 1;
+        // int a = 1;
         short b = 6;
         byte c = 8;
 
