@@ -97,7 +97,6 @@ public class _6ArrayPractice {
         */
 
         /* 7.Write a program to find minimum number
-        */
 
         int [] arr = {11, 2, 3, -1, 5, -6, 7, 8, 1 };
 
@@ -109,9 +108,32 @@ public class _6ArrayPractice {
             }
         }
         System.out.println("min is " + min);
+        */
+
+         /* 8.find a array is sorted or not */
+
+        int [] arr = {1, 2, 3, 4, 5, 6, 7, 8};
+//        int [] arr = {1, 2, 3, 4, 5, 16, 7, 8};
+
+        if (sortedOrNot(arr)){
+            System.out.println("Its sorted Array");
+        }else{
+            System.out.println("Its not sorted Array");
+        }
+
     }
 
-    public static void display(int [] arr) {
+    private static boolean sortedOrNot(int[] arr) {
+
+        for (int i = 0; i < arr.length-1; i++) {
+            if (arr[i]> arr[i+1]){
+                return false;
+            }
+        }
+        return  true;
+    }
+
+    private static void display(int [] arr) {
         for (int ele: arr) {
             System.out.printf("%d ",ele);
         }
