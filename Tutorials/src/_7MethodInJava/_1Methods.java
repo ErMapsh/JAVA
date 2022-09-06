@@ -8,7 +8,7 @@ public class _1Methods {
             DataType name(){
                 //method body
             }
-        Note: method can be private, public
+        Note: method can be public, private and protected
               method have return type int, float, string, char, void, pointer
 
 

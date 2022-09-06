@@ -23,8 +23,11 @@ public class _2MethodOverloading {
         System.out.printf("Full name is %s %s\n", fname, Lname);
     }
 
-    // method overloading is cannot perform by changing return type
+    // method overloading is cannot perform by changing return type, if we do like below function we will get error as we already
+    // have same type of function
+
     /*
+
     private static int function(String fname, String Lname){
         return 0
     }
