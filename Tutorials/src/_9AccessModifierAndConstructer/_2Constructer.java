@@ -4,6 +4,7 @@ class Constructer{
     private int id;
     private String name;
 
+    // Setter 
     public void SetData(int id, String name){
         this.id = id;
         this.name = name;
@@ -23,6 +24,7 @@ class Constructer{
         this.name = name;
     }
 
+    // Getter
     public void DisplayInfo(){
         // public method/attributes can accessiable directly and private attribute/methods can accessiable by public method of that class
         System.out.printf("The id of employee is %d and her/his name is %s\n", id, name);
