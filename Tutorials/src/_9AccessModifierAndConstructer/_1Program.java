@@ -25,7 +25,7 @@ class myEmployee{
         this.salary = salary;
     }
 
-    // this type of methods called function overloading
+    // this type of methods called constructer overloading
     myEmployee(int id, String name, int salary, String gender){
         this.id = id;
         this.name = name;
