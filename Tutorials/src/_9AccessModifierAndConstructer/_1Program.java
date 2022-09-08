@@ -1,7 +1,7 @@
 package _9AccessModifierAndConstructer;
 
 
-/* access modifier and  function/constructer overloading */
+/* access modifier and  function/constructer overriding */
 
 class myEmployee{
 
@@ -25,7 +25,7 @@ class myEmployee{
         this.salary = salary;
     }
 
-    // this type of methods called constructer overloading
+    // this type of methods called constructer overriding
     myEmployee(int id, String name, int salary, String gender){
         this.id = id;
         this.name = name;
