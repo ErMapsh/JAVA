@@ -1,19 +1,28 @@
 package _11Abstract;
 
+/*
+    You can create properties in interface
+    But you cannot modify the methods of interfaces from anywhere,
+    but you can modify/update attribute of interface through classes
+*/
+
 interface Bicycle {
     int NumberOfBreak = 6;
     int MaxBreakLimit = 10;
+
     int applyBreak(int breakAmount);
+
     int changeGear(int GearNum);
 }
 
-interface HornBicycle{
+interface HornBicycle {
     void Horn1();
+
     void Horn2();
 }
 
 class Hercules implements Bicycle {
-    /* you cannot modifie interface through another class or globaly/localy */
+    /* you cannot modify interface through another class or globally/locally */
     public int breakLimit;
     public int GearNum;
 
@@ -26,12 +35,12 @@ class Hercules implements Bicycle {
     }
 
     /*
-       is necessary to must implement a interface method where u are implementing a new
+       is necessary to must implement an interface method where you are implementing a new
        class in
      */
     @Override
     public int applyBreak(int breakAmount) {
-        System.out.printf("Break apply is %d - %d is %d\n", breakLimit, breakAmount,  this.breakLimit - breakAmount);
+        System.out.printf("Break apply is %d - %d is %d\n", breakLimit, breakAmount, this.breakLimit - breakAmount);
         this.breakLimit = this.breakLimit - breakAmount;
         return this.breakLimit;
     }
@@ -43,7 +52,7 @@ class Hercules implements Bicycle {
     }
 }
 
-class Hero implements Bicycle, HornBicycle{
+class Hero implements Bicycle, HornBicycle {
     @Override
     public int applyBreak(int breakAmount) {
         return this.MaxBreakLimit - breakAmount;
@@ -82,3 +91,11 @@ public class _2AbsVsInterface {
         h1.Horn2();
     }
 }
+
+/*
+  interface is like class, but we declare abstract methods in abstract class
+  that methods we declare in interface,
+  class implementing an interface there are two possibility-->
+  1. make a class abstract class
+  2. declare interface methods there
+*/
