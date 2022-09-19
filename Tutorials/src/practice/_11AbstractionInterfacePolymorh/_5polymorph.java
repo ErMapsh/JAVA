@@ -1,11 +1,11 @@
 package practice._11AbstractionInterfacePolymorh;
-interface BasicAnimal {
+interface BasicAnimal2 {
     void sleep();
 
     void eat();
 }
 
-class Monkey {
+class Monkey2 {
     void jump() {
         System.out.println("Jump....");
     }
@@ -15,7 +15,7 @@ class Monkey {
     }
 }
 
-class Human extends Monkey implements BasicAnimal {
+class Human2 extends Monkey2 implements BasicAnimal2 {
     public void eat() {
         System.out.println("Eating....");
     }
@@ -28,7 +28,7 @@ class Human extends Monkey implements BasicAnimal {
 public class _5polymorph {
     public static void main(String[] args) {
         // polymorphism 
-        Monkey vandar = new Human();
+        Monkey2 vandar = new Human2();
         vandar.bite();
         vandar.jump();
     }
