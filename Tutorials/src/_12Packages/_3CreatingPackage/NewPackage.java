@@ -7,7 +7,7 @@ import java.util.*; // importing all packages that java have
 
 /*
     creating own packages
-    ---->  javac -d  *.java ----> saying to create a java packages to belonging thier statemment 
+    ---->  javac -d  *.java ----> saying to create a java packages to belonging thier statement 
     and after that class file will create in that package, thats is package called
 */
 
