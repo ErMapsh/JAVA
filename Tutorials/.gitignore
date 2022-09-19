@@ -2,6 +2,7 @@
 
 # for java
 *.class 
+/*.class
 
 # dependencies
 /node_modules
