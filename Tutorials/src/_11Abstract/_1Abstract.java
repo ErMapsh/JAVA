@@ -11,7 +11,7 @@ abstract class parent {
     */
 
     parent() {
-        System.out.println("---I m parent Constructer----");
+        System.out.println("---I m parent Constructor----");
     }
 
     public void Greeting() {
@@ -21,23 +21,24 @@ abstract class parent {
     abstract void absMethod();
 }
 
-class child1 extends parent{
+class child1 extends parent {
     /* there are two ways to use abstract parent class 
         1. override abstract method (basically we saying i dont want abstract method from parent class)
     */
 
-    @Override // because we dont want parent abstract method
-    void absMethod(){
+    @Override
+        // because we dont want parent abstract method
+    void absMethod() {
         System.out.println("i dont want my parents abstract methods so, i created my own, without begin abstract class");
     }
 }
 
-abstract class child2 extends parent{
+abstract class child2 extends parent {
     /* there are two ways to use abstract parent class 
         2. basically we use created class as abstract class ( so abstract class can own his or parent abstract methods)
     */
 
-    void me(){
+    void me() {
         System.out.println("we use created class as abstract class ( so abstract class can own his or parent abstract methods)");
     }
 }
@@ -45,7 +46,7 @@ abstract class child2 extends parent{
 public class _1Abstract {
     public static void main(String[] args) {
         System.out.println("---Abstract---");
-        
+
         child1 ch = new child1();
         ch.absMethod();
 
