@@ -13,10 +13,10 @@
 2. getName()
 2. setName()
 
-![Thread Priorities](https://docs.oracle.com/javase/7/docs/technotes/guides/vm/thread-priorities.html)
+[Thread Priorities](https://docs.oracle.com/javase/7/docs/technotes/guides/vm/thread-priorities.html)
 
 # Additional Imp methods in Thread
 
 - like join,currentThread
 
-![Thread](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html)
+[Thread](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html)
