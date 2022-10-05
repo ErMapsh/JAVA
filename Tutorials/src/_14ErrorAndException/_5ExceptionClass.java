@@ -49,7 +49,6 @@ public class _5ExceptionClass {
         }
 
         // first custom exception
-
         System.out.print("Enter the number 1: ");
         int a = sc.nextInt();
         try {
@@ -78,6 +77,6 @@ public class _5ExceptionClass {
             e.printStackTrace(); // its give error with line number
             System.out.println("Finished");
         }
-        
+
     }
 }
