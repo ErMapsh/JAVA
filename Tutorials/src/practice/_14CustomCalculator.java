@@ -101,7 +101,7 @@ class MyCustomCalculator {
 
 }
 
-public class CustomCalculator {
+public class _14CustomCalculator {
     public static void main(String[] args) {
         /*
         Exercise 6: You have to create a custom calculator with following operations:
