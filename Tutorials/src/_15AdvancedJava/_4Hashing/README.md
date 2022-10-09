@@ -34,4 +34,4 @@ collision. Following techniques are used to avoid collision in hashing :
 
 ### Chaining:
 
-    In Chaining, there is another array is linking to that index and stroing value in that array. If collision happen
+    In Chaining, there is another linklist is linking to that index and stroing value in that linkedlist. If collision happen
