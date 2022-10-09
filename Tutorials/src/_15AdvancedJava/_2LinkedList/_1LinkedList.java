@@ -20,6 +20,11 @@ public class _1LinkedList {
         //----2.addAll
         LinkedList<Integer> L2 = new LinkedList<>();
         L2.addAll(L1);
+
+        // another way to do
+        LinkedList<Integer> l3 = new LinkedList<>(L2);
+        System.out.println("2.1 List3: " + l3.clone());
+
         System.out.println("2. List2 after copying all element from List1: " + L2.clone());
 
         //----3.addFirst
