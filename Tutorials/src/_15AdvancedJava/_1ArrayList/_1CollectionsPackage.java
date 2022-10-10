@@ -1,7 +1,6 @@
 package _15AdvancedJava._1ArrayList;
 
 import java.util.ArrayList;
-import java.util.ListIterator;
 
 public class _1CollectionsPackage {
     public static void display(ArrayList<Integer> al) {
