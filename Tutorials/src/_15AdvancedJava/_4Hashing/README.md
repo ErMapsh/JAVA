@@ -34,4 +34,17 @@ collision. Following techniques are used to avoid collision in hashing :
 
 ### Chaining:
 
-    In Chaining, there is another linklist is linking to that index and stroing value in that linkedlist. If collision happen
+    In Chaining, there is another linklist is linking to that index and 
+    stroing value in that linkedlist, If collision happen. 
+    its better way to do hashing.
+
+# useful classes for Hash in Collections
+
+1. Hashset
+2. HashMap
+3. LinkedHashmap
+4. hashTable
+
+# Why we use this Hash Classes?
+
+Due to hash collision we use this classes.
