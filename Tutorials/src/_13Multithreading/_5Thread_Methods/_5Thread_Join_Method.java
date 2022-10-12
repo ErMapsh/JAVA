@@ -1,4 +1,4 @@
-package _13Multithreading._5Thread_Methods;
+package _5Thread_Methods;
 
 class MyThre1 extends Thread {
     MyThre1(String name) {
