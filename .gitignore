@@ -4,8 +4,6 @@
 *.class 
 /*.class
 /*/*.class
-Tutorials.iml
-*.iml
 
 # dependencies
 /node_modules
