@@ -1,0 +1,3 @@
+- [Exception class](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Exception.html#%3Cinit%3E(java.lang.String))
+- [Throw vs throws](https://www.youtube.com/watch?v=sOcZgWyoQuk&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q&index=84)
+- [Finally Blocks](https://docs.oracle.com/javase/tutorial/essential/exceptions/finally.html)
