@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f176ba05-a1e0-4b47-874b-8d48fff44386" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_2StreamApi/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_2StreamApi/_1FunctionalInterface/_1Consumer/_1ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_2StreamApi/_1FunctionalInterface/_1Consumer/_2ConsumerWithLambdaFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_2StreamApi/_1FunctionalInterface/_2Predicate/_1Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_2StreamApi/_1FunctionalInterface/_2Predicate/_2PredicateWithLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_2StreamApi/_1FunctionalInterface/_3Supplier/_1Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_2StreamApi/_1FunctionalInterface/_3Supplier/_2SupplierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_1ForeachMeth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +38,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._2SupplierDemo">
+  <component name="RunManager" selected="Application._1ForeachMeth">
+    <configuration name="_1ForeachMeth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._1ForeachMeth" />
+      <module name="Tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_1Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_21Java8Features._2StreamApi._1FunctionalInterface._2Predicate._1Predicate" />
       <module name="Tutorials" />
@@ -66,19 +71,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_21Java8Features._2StreamApi._1FunctionalInterface._3Supplier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2ConsumerWithLambdaFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._2StreamApi._1FunctionalInterface._1Consumer._2ConsumerWithLambdaFun" />
-      <module name="Tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_21Java8Features._2StreamApi._1FunctionalInterface._1Consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._1ForeachMeth" />
         <item itemvalue="Application._2SupplierDemo" />
         <item itemvalue="Application._1Supplier" />
         <item itemvalue="Application._2PredicateWithLambda" />
         <item itemvalue="Application._1Predicate" />
-        <item itemvalue="Application._2ConsumerWithLambdaFun" />
       </list>
     </recent_temporary>
   </component>
