@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f176ba05-a1e0-4b47-874b-8d48fff44386" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_1ForEach/_1ForeachMeth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_1ForEach/_2ForEachInMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_2Filter/_1FilterMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_2Filter/_2FilterWithMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_3Example/DataBaseLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_3Example/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_3Example/TaxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_4Sort_a_List/_1SortingListUsingLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_4Sort_a_List/_3Example/DataBaseLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_4Sort_a_List/_3Example/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_4Sort_a_List/_3Example/TaxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_4Sort_a_List/_3Example/_1SortAList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_5Map/_1Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tutorials/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tutorials/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -43,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Dev/Java/Tutorials/src/_21Java8Features/_4Sort_a_List",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -50,13 +50,18 @@
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TaxService">
-    <configuration name="DataBaseLayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._3Example.DataBaseLayer" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Java\Tutorials\src\_21Java8Features\_4Sort_a_List" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application._1Map">
+    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._4Sort_a_List._3Example.SortList" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._3Example.*" />
+          <option name="PATTERN" value="_21Java8Features._4Sort_a_List._3Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._3Example.TaxService" />
+    <configuration name="SortingListUsingLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._4Sort_a_List.SortingListUsingLambda" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._3Example.*" />
+          <option name="PATTERN" value="_21Java8Features._4Sort_a_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1FilterMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._2Filter._1FilterMethod" />
+    <configuration name="_1Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._5Map._1Map" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._2Filter.*" />
+          <option name="PATTERN" value="_21Java8Features._5Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1ForeachMeth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._1ForEach._1ForeachMeth" />
+    <configuration name="_1SortAList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._4Sort_a_List._3Example._1SortAList" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._1ForEach.*" />
+          <option name="PATTERN" value="_21Java8Features._4Sort_a_List._3Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2FilterWithMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._2Filter._2FilterWithMap" />
+    <configuration name="_1SortAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._4Sort_a_List._3Example._1SortAList" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._2Filter.*" />
+          <option name="PATTERN" value="_21Java8Features._4Sort_a_List._3Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaxService" />
-        <item itemvalue="Application.DataBaseLayer" />
-        <item itemvalue="Application._2FilterWithMap" />
-        <item itemvalue="Application._1FilterMethod" />
-        <item itemvalue="Application._1ForeachMeth" />
+        <item itemvalue="Application._1Map" />
+        <item itemvalue="Application._1SortAList" />
+        <item itemvalue="Application._1SortAList (1)" />
+        <item itemvalue="Application.SortList" />
+        <item itemvalue="Application.SortingListUsingLambda" />
       </list>
     </recent_temporary>
   </component>

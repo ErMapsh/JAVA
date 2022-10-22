@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f176ba05-a1e0-4b47-874b-8d48fff44386" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_3ForeachAndFilterMethod/_1ForeachMeth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_1LambdaExpressions/SortingListUsingLambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tutorials/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tutorials/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +36,21 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._1ForeachMeth">
-    <configuration name="_1ForeachMeth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._1ForeachMeth" />
+  <component name="RunManager" selected="Application.SortingListUsingLambda">
+    <configuration name="DataBaseLayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._3Example.DataBaseLayer" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod.*" />
+          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._3Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._2StreamApi._1FunctionalInterface._2Predicate._1Predicate" />
+    <configuration name="SortingListUsingLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._1LambdaExpressions.SortingListUsingLambda" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._2StreamApi._1FunctionalInterface._2Predicate.*" />
+          <option name="PATTERN" value="_21Java8Features._1LambdaExpressions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1Supplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._2StreamApi._1FunctionalInterface._3Supplier._1Supplier" />
+    <configuration name="TaxService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._3Example.TaxService" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._2StreamApi._1FunctionalInterface._3Supplier.*" />
+          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._3Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2PredicateWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._2StreamApi._1FunctionalInterface._2Predicate._2PredicateWithLambda" />
+    <configuration name="_1FilterMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._2Filter._1FilterMethod" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._2StreamApi._1FunctionalInterface._2Predicate.*" />
+          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._2Filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._2StreamApi._1FunctionalInterface._3Supplier._2SupplierDemo" />
+    <configuration name="_2FilterWithMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._3ForeachAndFilterMethod._2Filter._2FilterWithMap" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._2StreamApi._1FunctionalInterface._3Supplier.*" />
+          <option name="PATTERN" value="_21Java8Features._3ForeachAndFilterMethod._2Filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._1ForeachMeth" />
-        <item itemvalue="Application._2SupplierDemo" />
-        <item itemvalue="Application._1Supplier" />
-        <item itemvalue="Application._2PredicateWithLambda" />
-        <item itemvalue="Application._1Predicate" />
+        <item itemvalue="Application.SortingListUsingLambda" />
+        <item itemvalue="Application.TaxService" />
+        <item itemvalue="Application.DataBaseLayer" />
+        <item itemvalue="Application._2FilterWithMap" />
+        <item itemvalue="Application._1FilterMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -135,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
