@@ -22,7 +22,7 @@ public class _1SortAList {
 
     public static void main(String[] args) {
         /*
-            when such time we have to sort a list using object that time we collections api
+            when such time we have to sort a list using object specific field that time we collections api
         */
         List <Employee> emp = new DataBaseLayer().GetEmployee();
         //emp.stream().forEach(t-> System.out.println(t));
