@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f176ba05-a1e0-4b47-874b-8d48fff44386" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_5Map/_2Example/DatabaseLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_5Map/_2Example/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_5Map/_2Example/_1SortingInMapUsingLamda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_6MapAndFlatMap/Example/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_6MapAndFlatMap/Example/DataBaseLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_6MapAndFlatMap/Example/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_21Java8Features/_4Sort_a_List/_3Example/_1SortAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/_21Java8Features/_4Sort_a_List/_3Example/_1SortAList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_21Java8Features/_5Map/_1Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/_21Java8Features/_5Map/_1Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tutorials/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tutorials/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,60 +43,24 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dev\Java\Tutorials\src\_21Java8Features\_4Sort_a_List" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Java\Tutorials\src\_21Java8Features\_6MapAndFlatMap\DataTransformationAndFlattering" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application._1Map">
-    <configuration name="_1Map (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._5Map._1Map" />
+  <component name="RunManager" selected="Application.Operation">
+    <configuration name="Operation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._6MapAndFlatMap.Example.Operation" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._5Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1Map (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._5Map._1Map" />
-      <module name="Tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_21Java8Features._5Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._5Map._1Map" />
-      <module name="Tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_21Java8Features._5Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1SortingInMapUsingLamda (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._5Map._2Example._1SortingInMapUsingLamda" />
-      <module name="Tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_21Java8Features._5Map._2Example.*" />
+          <option name="PATTERN" value="_21Java8Features._6MapAndFlatMap.Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +81,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_1SortingInMapUsingLamda (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._5Map._2Example._1SortingInMapUsingLamda" />
+      <module name="Tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_21Java8Features._5Map._2Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1SortingInMapUsingLamda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._5Map._2Example._1SortingInMapUsingLamda" />
+      <module name="Tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_21Java8Features._5Map._2Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2SortingMapWithLambada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._5Map._2Example._2SortingMapWithLambada" />
+      <module name="Tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_21Java8Features._5Map._2Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._1Map" />
-        <item itemvalue="Application._1Map (2)" />
-        <item itemvalue="Application._1Map (1)" />
+        <item itemvalue="Application.Operation" />
+        <item itemvalue="Application._2SortingMapWithLambada" />
+        <item itemvalue="Application._1SortingInMapUsingLamda" />
+        <item itemvalue="Application._1SortingInMapUsingLamda (3)" />
         <item itemvalue="Application._1SortingInMapUsingLamda (2)" />
-        <item itemvalue="Application._1SortingInMapUsingLamda (1)" />
       </list>
     </recent_temporary>
   </component>
