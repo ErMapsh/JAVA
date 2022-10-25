@@ -22,7 +22,7 @@ public class Operation {
         in above scenario, we gave list of list element, so in that case we can use flatmap.
         one to many mapping
          */
-        List<String> phoneNum = customersList.stream().flatMap(customer -> customer.getPhoneNumber().stream()).collect(Collectors.toList());
+        List<String> phoneNum = customersList.stream().flatMap(customer -> customer.getPhoneNumber().stream()).toList();
         System.out.println("\n"+ phoneNum);
 
     }
