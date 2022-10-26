@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f176ba05-a1e0-4b47-874b-8d48fff44386" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8MapAndReduce/Example/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8MapAndReduce/Example/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8MapAndReduce/Example/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8MapAndReduce/_1Reduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8MapAndReduce/_2Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8ParallelStream/Example/DataBaseLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8ParallelStream/Example/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8ParallelStream/Example/Opearation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21Java8Features/_8ParallelStream/Stream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tutorials/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tutorials/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -37,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Dev/Java/Tutorials/src/_21Java8Features/_4Sort_a_List",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dev/Java/Tutorials/src/_21Java8Features/_4Sort_a_List&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dev\Java\Tutorials\src\_21Java8Features\_4Sort_a_List" />
@@ -61,7 +60,20 @@
       <recent name="_21Java8Features._7OptionalClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._21Java8Features._8MapAndReduce.Example.Operation">
+  <component name="RunManager" selected="Application.Opearation">
+    <configuration name="Opearation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._8ParallelStream.Example.Opearation" />
+      <module name="Tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_21Java8Features._8ParallelStream.Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_21Java8Features._8MapAndReduce.Reduce" />
       <module name="Tutorials" />
@@ -75,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1optionalObjectUsingEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._7OptionalClass._1optionalObjectUsingEmpty" />
+    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21Java8Features._8ParallelStream.Stream" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_21Java8Features._7OptionalClass.*" />
+          <option name="PATTERN" value="_21Java8Features._8ParallelStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_21Java8Features._8MapAndReduce.Example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2AccessingOptionalObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_21Java8Features._7OptionalClass._2AccessingOptionalObject" />
-      <module name="Tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_21Java8Features._7OptionalClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Opearation" />
+        <item itemvalue="Application.Stream" />
         <item itemvalue="Application._21Java8Features._8MapAndReduce.Example.Operation" />
         <item itemvalue="Application._2Reduce" />
         <item itemvalue="Application.Reduce" />
-        <item itemvalue="Application._2AccessingOptionalObject" />
-        <item itemvalue="Application._1optionalObjectUsingEmpty" />
       </list>
     </recent_temporary>
   </component>
